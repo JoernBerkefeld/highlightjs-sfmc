@@ -44,7 +44,13 @@
   },
   "devDependencies": {
     "highlight.js": "^11.11.1",
+    "lint-staged": "^17.0.5",
     "mocha": "^11.1.0",
     "should": "^13.2.3"
+  },
+  "lint-staged": {
+    "*.{js,mjs,cjs}": [
+      "eslint --fix"
+    ]
   }
 }
