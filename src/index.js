@@ -1,5 +1,2 @@
-import ampscript from './languages/ampscript.js';
-import ssjs from './languages/ssjs.js';
-
-export { ampscript, ssjs };
-export default ampscript;
+export { default as ssjs } from './languages/ssjs.js';
+export { default, default as ampscript } from './languages/ampscript.js';
